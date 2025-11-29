@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mon portfolio — Matthieu NAKA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Typographies premium minimalistes -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Header / Navigation ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand">MN</a>
+      <nav class="nav">
+        <a href="#hero" class="nav-link">Accueil</a>
+        <a href="#about" class="nav-link">À propos</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Mes réalisations</a>
+        <a href="#skills" class="nav-link">Compétences</a>
+        <a href="#testimonials" class="nav-link">Témoignages</a>
+        <a href="#contact" class="nav-link cta-nav">Contact</a>
+      </nav>
+      <button class="menu-btn" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-media">
+        <img src="portrait.jpg" alt="Portrait de Matthieu NAKA" class="hero-img" />
+        <div class="accent-ring"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">Bienvenue, je suis <span>Matthieu NAKA</span></h1>
+        <h2 class="hero-subtitle">Responsable Communication & Web Entrepreneur</h2>
+        <p class="hero-intro">
+          Formateur et créateur de solutions digitales, je transforme les idées en expériences claires et efficaces. 
+          Ma passion : la communication, le marketing digital, la création de contenu, le develeppement web et mobile — au service de l’entrepreneuriat.
+        </p>
+        <div class="hero-actions">
+          <a href="cv.pdf" class="btn btn-primary">Mon CV</a>
+          <a href="#projects" class="btn btn-outline">Mes réalisations</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== À propos ===== -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="section-head">
+        <h3 data-text="À propos de moi">À propos de moi</h3>
+        <div class="underline"></div>
+      </div>
+      <p class="about-text">
+        Responsable Communication, Web Entrepreneur et Formateur, j’accompagne marques et organisations 
+        dans la définition de leur message, la structuration de leur présence digitale et la conception de contenus 
+        qui engage. J’intègre des approches écoresponsables pour des projets plus humains et durables, 
+        avec une vision entrepreneuriale orientée résultats. Mon objectif : des expériences sobres, premium et 
+        impactantes, centrées sur l’essentiel.
+      </p>
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-value">50+</div>
+          <div class="stat-label">Projets réalisés</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">5+</div>
+          <div class="stat-label">Années d’expérience</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">30+</div>
+          <div class="stat-label">Clients satisfaits</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section class="services" id="services">
+    <div class="container services-inner">
+      <div class="section-head">
+        <h3 data-text="Services">Services</h3>
+        <div class="underline"></div>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h18v4H3zM3 10h18v10H3z"/></svg>
+          </div>
+          <h4>Communication</h4>
+          <p>
+            Stratégie, positionnement, editorial design et messages clairs pour renforcer votre image et votre impact.
+          </p>
+        </article>
+        <article class="service-card">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H4zM2 18h20v2H2z"/></svg>
+          </div>
+          <h4>Marketing digital</h4>
+          <p>
+            Campagnes multicanales, social media, SEO de base et optimisation de conversion orientée résultats.
+          </p>
+        </article>
+        <article class="service-card">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l9 4-9 4-9-4 9-4zm0 10l9 4-9 4-9-4 9-4z"/></svg>
+          </div>
+          <h4>Formation</h4>
+          <p>
+            Ateliers pratiques en communication, marketing digital et création de contenu pour équipes et entrepreneurs.
+          </p>
+        </article>
+        <article class="service-card">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l7 7-7 7-7-7 7-7zm0 7l7 7"/></svg>
+          </div>
+          <h4>Création d’identité visuelle</h4>
+          <p>
+            Logos, palettes, typographies et guidelines, pour une identité cohérente, premium et mémorable.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Mes réalisations ===== -->
+  <section class="projects" id="projects">
+    <div class="container projects-inner">
+      <div class="section-head">
+        <h3 data-text="Mes réalisations">Mes réalisations</h3>
+        <div class="underline"></div>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-media">
+            <img src="btqimg.jpg" alt="Boutique en ligne" />
+          </div>
+          <div class="project-content">
+            <h4>Pharmacie en ligne</h4>
+            <p>Conception et déploiement d’une pharmacie e-commerce moderne avec parcours d’achat épuré.</p>
+            <span class="chip">Web Design</span>
+            <span class="chip">E-commerce</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="imgcom.jpg" alt="AFRIQUADIS communication digitale" />
+          </div>
+          <div class="project-content">
+            <h4>Gestion de la communication digitale de la société AFRIQUADIS</h4>
+            <p>Pilotage de contenus, planning éditorial, branding et optimisation de la présence sur les réseaux.</p>
+            <span class="chip">Communication</span>
+            <span class="chip">Marketing</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="yoobagimg.jpg" alt="YooBag emballages écoresponsables" />
+          </div>
+          <div class="project-content">
+            <h4>Conception des emballages écoresponsables de la marque YooBag</h4>
+            <p>Design minimaliste, matériaux responsables et guidelines d’impression pour une marque consciente.</p>
+            <span class="chip">Packaging</span>
+            <span class="chip">Identité</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Compétences ===== -->
+  <section class="skills" id="skills">
+    <div class="container skills-inner">
+      <div class="section-head">
+        <h3 data-text="Mes compétences">Mes compétences</h3>
+        <div class="underline"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-head">
+            <span>Communication</span><span>80%</span>
+          </div>
+          <div class="bar"><span style="width:80%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-head">
+            <span>Montage vidéo</span><span>75%</span>
+          </div>
+          <div class="bar"><span style="width:75%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-head">
+            <span>Marketing digital</span><span>70%</span>
+          </div>
+          <div class="bar"><span style="width:70%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-head">
+            <span>Graphisme</span><span>60%</span>
+          </div>
+          <div class="bar"><span style="width:60%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-head">
+            <span>Conception des sacs écoresponsables</span><span>95%</span>
+          </div>
+          <div class="bar"><span style="width:95%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-head">
+            <span>Développement web et mobile</span><span>50%</span>
+          </div>
+          <div class="bar"><span style="width:50%"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Témoignages ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container testimonials-inner">
+      <div class="section-head">
+        <h3 data-text="Témoignages">Témoignages</h3>
+        <div class="underline"></div>
+      </div>
+      <div class="testi-grid">
+        <article class="testi-card">
+          <p class="quote">
+            « Matthieu a clarifié notre message et structuré notre communication digitale avec précision.
+            Résultat : une présence plus cohérente et des retours mesurables. »
+          </p>
+          <div class="author">
+            <strong>Magloire A.</strong> — Directeur, Génération Ministries
+          </div>
+        </article>
+        <article class="testi-card">
+          <p class="quote">
+            « Un accompagnement premium, simple et efficace. Sa vision et ses conseils nous ont permis
+            d’accélérer et de mieux engager nos audiences. »
+          </p>
+          <div class="author">
+            <strong>Clarisse Y.</strong> — Fondatrice, YooBag
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="section-head">
+        <h3 data-text="Contact">Contact</h3>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-item">
+            <span class="info-icon" aria-hidden="true">📞</span>
+            <span class="info-text">+228 93 48 02 86</span>
+          </div>
+          <div class="info-item">
+            <span class="info-icon" aria-hidden="true">✉️</span>
+            <span class="info-text">mathieu.naka9@gmail.com</span>
+          </div>
+          <div class="info-item">
+            <span class="info-icon" aria-hidden="true">📍</span>
+            <span class="info-text">Lomé, Togo</span>
+          </div>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <div class="field">
+            <label for="name">Votre nom</label>
+            <input type="text" id="name" name="name" placeholder="Entrez votre nom" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Ex. nom@domaine.com" required />
+          </div>
+          <div class="field">
+            <label for="phone">Numéro de téléphone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+228 ..." />
+          </div>
+          <div class="field">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Décrivez votre projet..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- ===== Footer Premium Folie ===== -->
+  <footer class="site-footer site-footer--dark">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand">MN</div>
+        <p class="footer-tagline">Tout est possible</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Réalisations</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="LinkedIn"><span>in</span></a>
+        <a href="#" aria-label="X"><span>x</span></a>
+        <a href="#" aria-label="Facebook"><span>f</span></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2025 Matthieu NAKA. Tous droits réservés.</span>
+        <span>Fait avec passion et précision.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Menu mobile simple
+    const menuBtn = document.querySelector('.menu-btn');
+    const nav = document.querySelector('.nav');
+    menuBtn.addEventListener('click', () => {
+      nav.classList.toggle('open');
+      menuBtn.classList.toggle('open');
+    });
+
+    // Animation au scroll - Intersection Observer
+    const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -100px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+    document.querySelectorAll('section').forEach(section => {
+      section.style.opacity = '0';
+      section.style.transform = 'translateY(30px)';
+      section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+      observer.observe(section);
+    });
+
+    // Parallax sur le hero
+    window.addEventListener('scroll', () => {
+      const scrolled = window.pageYOffset;
+      const parallaxElements = document.querySelectorAll('.hero-media, .accent-ring');
+      parallaxElements.forEach(el => {
+        const speed = 0.5;
+        el.style.transform = `translateY(${scrolled * speed}px)`;
+      });
+    });
+
+    // Animations des statistiques au scroll
+    const animateValue = (element, start, end, duration) => {
+      const range = end - start;
+      const increment = range / (duration / 16);
+      let current = start;
+      const timer = setInterval(() => {
+        current += increment;
+        if ((increment > 0 && current >= end) || (increment < 0 && current <= end)) {
+          element.textContent = end + '+';
+          clearInterval(timer);
+        } else {
+          element.textContent = Math.floor(current) + '+';
+        }
+      }, 16);
+    };
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const statValue = entry.target.querySelector('.stat-value');
+          const value = parseInt(statValue.textContent);
+          animateValue(statValue, 0, value, 2000);
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.stat-card').forEach(card => statsObserver.observe(card));
+
+    // Progress bar au scroll
+    window.addEventListener('scroll', () => {
+      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (window.scrollY / windowHeight) * 100;
+      document.body.style.setProperty('--scroll-progress', scrolled + '%');
+    });
+    const style = document.createElement('style');
+    style.textContent = `body::before { width: var(--scroll-progress, 0%) !important; }`;
+    document.head.appendChild(style);
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Animation des barres de compétences au scroll
+    const skillsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const bars = entry.target.querySelectorAll('.bar > span');
+          bars.forEach(bar => {
+            bar.style.animation = 'growBar 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards, gradientShift 3s ease infinite';
+          });
+          skillsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    const skillsSection = document.querySelector('.skills');
+    if (skillsSection) skillsObserver.observe(skillsSection);
+
+    // Effet 3D sur les cartes de projet (subtil)
+    document.querySelectorAll('.project-card').forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        const rotateX = (y - centerY) / 30;
+        const rotateY = (centerX - x) / 30;
+        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-6px)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+      });
+    });
+  </script>
+</body>
+</html>
